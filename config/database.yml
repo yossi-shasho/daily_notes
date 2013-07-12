@@ -1,0 +1,29 @@
+development:
+ adapter: postgresql
+ database: daily_notes_dev
+ host: localhost
+ encoding: unicode
+ username: silo
+ password: silopassword
+ pool: 5
+ timeout: 5000
+
+test: &test
+ adapter: postgresql
+ database: daily_notes_test
+ host: localhost
+ encoding: unicode
+ username: silo
+ password: silopassword
+ pool: 5
+ timeout: 5000
+
+production:
+ adapter: postgresql
+ database: daily_notes_production
+ host: localhost
+ encoding: unicode
+ username: silo
+ password: silopassword
+ pool: 5
+ timeout: 5000
