@@ -3,8 +3,8 @@ development:
  database: daily_notes_dev
  host: localhost
  encoding: unicode
- username: silo
- password: silopassword
+ username: ---
+ password: ---
  pool: 5
  timeout: 5000
 
@@ -13,8 +13,8 @@ test: &test
  database: daily_notes_test
  host: localhost
  encoding: unicode
- username: silo
- password: silopassword
+ username: ---
+ password: ---
  pool: 5
  timeout: 5000
 
@@ -23,7 +23,7 @@ production:
  database: daily_notes_production
  host: localhost
  encoding: unicode
- username: silo
- password: silopassword
+ username: ---
+ password: ---
  pool: 5
  timeout: 5000
